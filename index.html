@@ -1,0 +1,58 @@
+<!-- Made by Penguin -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>调色板 ｜ Color Palette</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="heading">
+    <div class="inner">
+        <div class="left">
+            <h1>Glacier Proj</h1>
+            <p>调色板</p>
+        </div>
+        <div class="middle">
+            <p>专业色板</p>
+            <p>自选调色</p>
+            <p>关于我们</p>
+        </div>
+        <a href="https://your-url" class="github-corner" aria-label="View source on GitHub">
+            <svg width="80" height="80" viewBox="0 0 250 250"
+                 style="fill:#151513; color:#fff; position: fixed; top: 0; border: 0; right: 0;" aria-hidden="true">
+                <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+                <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                      fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                      fill="currentColor" class="octo-body"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+<div id="colorpane">
+
+</div>
+<label for="selectMe"></label><input type="text" value="" id="selectMe" style="display:none;">
+</body>
+<script>
+    window.color = [[["#1abc9c", "turquoise", 0], ["#2ecc71", "emerald", 0], ["#3498db", "peter river", 0], ["#9b59b6", "amethyst", 0], ["#34495e", "wet asphalt", 0], ["#16a085", "green sea", 0], ["#27ae60", "nephritis", 0], ["#2980b9", "belize hole", 0], ["#8e44ad", "wisteria", 0], ["#2c3e50", "midnight blue", 0], ["#f1c40f", "sun flower", 1], ["#e67e22", "carrot", 0], ["#e74c3c", "alizarin", 0], ["#ecf0f1", "clouds", 1], ["#95a5a6", "concrete", 0], ["#f39c12", "orange", 0], ["#d35400", "pumpkin", 0], ["#c0392b", "pomegrenade", 0], ["#bdc3c7", "silver", 1], ["#7f8c8d", "asbesthos", 0]], [["#e51c23", "red", 0], ["#e91e63", "pink", 0], ["#9c27b0", "purple", 0], ["#673ab7", "deep purple", 0], ["#3f51b5", "indigo", 0], ["#5677fc", "blue", 0], ["#03a9f4", "light blue", 0], ["#00bcd4", "cyan", 0], ["#009688", "teal", 0], ["#259b24", "green", 0], ["#8bc34a", "light green", 0], ["#cddc39", "lime", 1], ["#ffeb3b", "yellow", 1], ["#ffc107", "amber", 1], ["#ff9800", "orange", 0], ["#ff5722", "deep orange", 0], ["#795548", "brown", 0], ["#9E9E9E", "grey", 0], ["#607D8B", "blue grey", 0], ["#000000", "black", 0], ["#ffffff", "white", 1]], [["#5856d6", "dark blue", 0], ["#007aff", "deep blue", 0], ["#34aadc", "blue", 0], ["#5ac8fa", "light blue", 0], ["#4cd964", "green", 0], ["#ff2d55", "pink", 0], ["#ff3b30", "red", 0], ["#ff9500", "orange", 0], ["#ffcc00", "yellow", 1], ["#8e8e93", "grey", 0]], [["#002b36", "base03", 0], ["#073642", "base02", 0], ["#586e75", "base01", 0], ["#657b83", "base00", 0], ["#839496", "base0", 0], ["#93a1a1", "base1", 0], ["#eee8d5", "base2", 1], ["#fdf6e3", "base3", 1], ["#b58900", "yellow", 0], ["#cb4b16", "orange", 0], ["#dc322f", "red", 0], ["#d33682", "magenta", 0], ["#6c71c4", "violet", 0], ["#268bd2", "blue", 0], ["#2aa198", "cyan", 0], ["#859900", "green", 0]], [["#a4c400", "lime", 0], ["#60a917", "green", 0], ["#008a00", "emerald", 0], ["#00aba9", "teal", 0], ["#1ba1e2", "cyan", 0], ["#0050ef", "cobalt", 0], ["#6a00ff", "indigo", 0], ["#aa00ff", "violet", 0], ["#d80073", "magenta", 0], ["#f472d0", "pink", 0], ["#a20025", "crimson", 0], ["#e51400", "red", 0], ["#fa6800", "orange", 0], ["#f0a30a", "amber", 0], ["#e3c800", "yellow", 1], ["#825a2c", "brown", 0], ["#6d8764", "olive", 0], ["#647687", "steel", 0], ["#76608a", "mauve", 0], ["#a0522d", "sienna", 0]], [["#d3d7cf", "Aluminium", 1], ["#edd400", "Butter", 1], ["#73d216", "Chameleon", 0], ["#f57900", "Orange", 0], ["#c17d11", "Chocolate", 0], ["#3465a4", "Sky Blue", 0], ["#75507b", "Plum", 0], ["#555753", "Slate", 0], ["#cc0000", "Scarlet Red", 0]], []];
+    window.palette = ["Flat UI", "Material Design", "Apple OS", "Solarized", "WP8", "Tango"];
+    let d = document.querySelector("#colorpane");
+    for (let i = 0; i < palette.length; i++) {
+        d.innerHTML += "<h2>" + palette[i] + "</h2>";
+        for (let j = 0; j < color[i].length; j++) {
+            d.innerHTML += "<div onclick='copyColor(" + i + "," + j + ")' style='background:" + color[i][j][0] + "' class='" + (color[i][j][2] === 0 ? "white-text" : "black-text") + "'><span>" + color[i][j][0] + "</span><span>" + color[i][j][1] + "</span></div>";
+        }
+    }
+    window.copyColor = (i, j) => {
+        let a = document.getElementById("selectMe");
+        a.value = color[i][j][0];
+        a.select();
+        document.execCommand("copy");
+    }
+</script>
+</html>
